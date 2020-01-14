@@ -51,7 +51,6 @@ section{
     bottom: 0;
   
 }
-
 nav .logo {
     height: 40px;
     width: 40px;
@@ -78,8 +77,6 @@ ul.navigation li a{
     height: 35px;
     border: 1px solid white;
     transition: background-color 0.4s
-    
-
 }
 ul.navigation li a i{
     color: white;
@@ -106,7 +103,6 @@ ul.navigation li span::before {
     border-color: transparent transparent transparent var(--mainColor);
     right: -22px;
     top: 6px;
-
 }
 ul.navigation li:hover span{
     opacity: 1;
@@ -143,7 +139,6 @@ header .header-content{
     height: 100%;
     width: 55%;
     padding-left:10px 
-
 }
 header .header-content h1 {
     color: white;
@@ -212,8 +207,7 @@ header .header-content .animated > div:nth-child(3){
 /******************* SECTION STYLING *******************************/
 section#About .introducing{
     width: 50%;
-    font-size: 35px;
-   
+    font-size: 35px;  
 }
 section#About .introducing::after{
     content: "";
@@ -225,7 +219,6 @@ section#About .introducing::after{
 }
 section#About .about{
     display: flex;
-
 }
 section#About .about i{
     color: #e6e6e6;
@@ -248,8 +241,7 @@ section#About .about h1{
     height: 100%;
     width: 100%;
 }
-.photos .bena-list{
-    
+.photos .bena-list{   
     width: 100%;
     background-color: var(--secondColor);
     height: 70px;
@@ -265,14 +257,11 @@ section#About .about h1{
     line-height: 40px;
     background-color: var(--mainColor);
     transition: border-radius 0.4s
-  
 }
-
 .photos .list li a i{
     color: var(--secondColor);
     font-size: 20px;
     margin-top: 10px;
-
 }
 .photos .list li:hover{
     border-radius: 50%;
@@ -322,8 +311,7 @@ section#About .about h1{
 }
 .info .number .num p:last-child{
     font-size: 18px;
-    color: rgb(27, 27, 27)
-    
+    color: rgb(27, 27, 27)   
 }
 .info p.par{
     font-size: 18px;
@@ -376,7 +364,6 @@ section#About .about h1{
     opacity: 0.4;
     font-size: 60px;
 }
-
 .row .twice{
     width: 31%;
     margin: 15px 0;
@@ -384,14 +371,12 @@ section#About .about h1{
     padding-right: 40px;
     background-color: rgba(51, 74, 90, 0.3);
     transition: transform 0.2s;
-    border-radius: 5px;
-   
+    border-radius: 5px;   
 }
 .row .twice:hover{
     transform: translatey(-10px);
     animation:trans 1s infinite;
 }
-
 .row .twice i{
     color: rgb(236, 236, 236);
     font-size: 45px;
@@ -494,7 +479,6 @@ div#toolpar .seo::after{
     height: 100%;
     z-index: -1;
     transition: width, 0.5s;
-
 }
 div#toolpar .seo:hover::before,
 div#toolpar .seo:hover::after{
@@ -595,8 +579,7 @@ div#toolpar .seo:hover{
 }
 .circle .i-img{
     text-align: right;
-    width: 30%;
-    
+    width: 30%;    
 }
 .circle .i-img img{
     height: 140px;
@@ -754,7 +737,6 @@ footer #frame .form input:focus{
     border-bottom: white 1px solid;
     color: white;
 }
-
 footer #frame .ifram{
     width: 36%
 }
@@ -799,7 +781,6 @@ nav.foot h1{
 nav.foot h1 span{
     color: var(--mainColor);
 }
-
 /******************* /FOOTER STYLING *******************************/
 /******************* MEDIA SCREEN *******************************/
 @media(max-width:1085px){
@@ -811,7 +792,6 @@ nav.foot h1 span{
     html,body{
         overflow-x: hidden;
         width: 100%;
-
     }
     .container{
         padding: 0 7%;
@@ -848,8 +828,7 @@ nav.foot h1 span{
         position: relative;
         margin: 25px 10px;
         display: inline-block;
-    }
-    
+    } 
     ul.navigation li a{
         border: 1px solid white;
         transition: background-color 0.4s
@@ -984,7 +963,6 @@ nav.foot h1 span{
         height: 60px;
         width: 61px;
     }
-
 }
 @media(max-width: 350px){
     nav.navbar {
